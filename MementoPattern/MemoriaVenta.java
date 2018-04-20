@@ -1,5 +1,8 @@
 
-public class MemoriaVenta {
+/* Clase CareTaker que se encarga 
+de cuidar el Memento */
+
+public class MemoriaVenta { 
 
   private Memento memento;
 

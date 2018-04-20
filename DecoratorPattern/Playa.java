@@ -1,3 +1,8 @@
+/*
+ConcreteDecorator: Elemento que añadirá las funcionalidades 
+y/o responsabilidades al componente objetivo Hotel.
+*/
+
 public class Playa extends AlquilableDecorator {
 
   public Playa(Alquilable alquilable){

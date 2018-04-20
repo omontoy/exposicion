@@ -1,9 +1,9 @@
 
-public class DecoratorPattern {
+public class DecoratorPattern { // Clase que contiene el main()
   public static void main(String[] args) {
 
           
-    // Buscaremos un hotel Dann Carlton con pensión completa
+    // Buscaremos un hotel Dann Carlton con recorrido turístico
 
     Alquilable hotel_dann_carlton = new Hotel("Hotel Dann Carlton (Medellín)");
 
@@ -27,11 +27,8 @@ public class DecoratorPattern {
 
 
 
-    // Ahora buscaremos un hotel Decameron en primera linea de playa,
-
-    // con pensión completa y le aplicaremos el descuento VIP
-
-
+    // Ahora buscaremos un hotel Decameron en playa,
+    // con recorrido turístico y le aplicaremos el descuento VIP
 
     Alquilable hotel_decameron = new Hotel("Hotel Decameron (Cartagena)");
 
@@ -47,9 +44,9 @@ public class DecoratorPattern {
 
     System.out.println(hotel_decameron.getDescripcion());
 
-    // Que mostrará: 
-    //"Hotel Decameron (Cartagena) (vista al mar) (Recorrido Turistico) (descuento cliente VIP)"
-
+    /* Que mostrará: 
+    Hotel Decameron(Cartagena)(vista al mar)(Recorrido Turistico)(descuento cliente VIP)
+    */
 
 
     // Obtenemos el presupuesto

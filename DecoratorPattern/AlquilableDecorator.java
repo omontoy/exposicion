@@ -1,3 +1,8 @@
+/*
+Clase Decorator que nos permitirá modificar el comportamiento de 
+nuestro elemento Alquilable en tiempo de ejecución
+*/
+
 public abstract class AlquilableDecorator implements Alquilable {
 
   private Alquilable alquilable;
